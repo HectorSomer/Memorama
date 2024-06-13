@@ -1,4 +1,3 @@
-import React from 'react';
 import SectionCards from '../organisms/SectionCards.jsx';
 
 function Memorama() {

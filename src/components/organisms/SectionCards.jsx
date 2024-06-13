@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './SectionCards.css';
 import Card from '../molecules/Card';
 import images from "../../data/images.js";
@@ -71,8 +71,7 @@ function SectionCards() {
     url("https://sweetalert2.github.io/images/nyan-cat.gif")
     center top
     no-repeat
-  `
-          });
+  `});
       }, 1500); 
     }
   }, [matchedCardIds]);
